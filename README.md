@@ -1,2 +1,2 @@
 # PSA-Translation-Project
-Kenyan-Multilingual-PSA-Translation
+A multilingual machine translation project for Kenyan Public Service Announcements using English, Kiswahili and Ekegusii.
