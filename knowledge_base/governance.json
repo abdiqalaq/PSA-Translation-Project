@@ -1,0 +1,589 @@
+{
+  "domain": "Governance",
+  "subcategories": {
+    "Elections and Voting": {
+      "institutions": [
+        "Independent Electoral and Boundaries Commission",
+        "Office of the Registrar of Political Parties",
+        "National Cohesion and Integration Commission",
+        "County Government",
+        "Parliament",
+        "Civil Society Organizations",
+        "Election Observation Groups",
+        "National Police Service",
+        "Judiciary",
+        "Community Peace Committees"
+      ],
+      "audiences": [
+        "voters",
+        "eligible citizens",
+        "youth",
+        "first-time voters",
+        "political party supporters",
+        "community leaders",
+        "candidates",
+        "election officials",
+        "persons with disabilities",
+        "members of the public"
+      ],
+      "hazards": [
+        "voter intimidation",
+        "electoral violence",
+        "election misinformation",
+        "vote buying",
+        "hate speech",
+        "voter suppression",
+        "ballot interference",
+        "political incitement",
+        "low voter turnout",
+        "disruption at polling stations"
+      ],
+      "actions": [
+        "verify your voter registration",
+        "vote peacefully",
+        "report electoral offences",
+        "seek election information from official sources",
+        "reject vote buying",
+        "respect election results",
+        "avoid spreading unverified election claims",
+        "follow polling station instructions",
+        "respect voters with different political views",
+        "participate peacefully in elections",
+        "keep campaign activities lawful",
+        "report threats or intimidation"
+      ],
+      "locations": [
+        "polling stations",
+        "registration centres",
+        "constituencies",
+        "wards",
+        "counties",
+        "community halls",
+        "campaign venues",
+        "public forums"
+      ],
+      "terminology": [
+        "free and fair elections",
+        "voter registration",
+        "electoral integrity",
+        "peaceful elections",
+        "democracy",
+        "credible elections",
+        "political tolerance",
+        "informed voting"
+      ],
+      "rules": []
+    },
+    "Public Service Delivery": {
+      "institutions": [
+        "Huduma Kenya",
+        "Ministry of Public Service",
+        "Public Service Commission",
+        "County Government",
+        "Government Service Centres",
+        "National Government Administration",
+        "Kenya Revenue Authority",
+        "National Registration Bureau",
+        "Civil Registration Services",
+        "Office of the Ombudsman"
+      ],
+      "audiences": [
+        "members of the public",
+        "citizens",
+        "service users",
+        "residents",
+        "business owners",
+        "older persons",
+        "persons with disabilities",
+        "youth",
+        "parents",
+        "job seekers"
+      ],
+      "hazards": [
+        "service delays",
+        "fraudulent services",
+        "poor service access",
+        "service misinformation",
+        "document forgery",
+        "unofficial charges",
+        "identity theft",
+        "lost application records",
+        "discrimination in service delivery",
+        "corrupt service practices"
+      ],
+      "actions": [
+        "use official government channels",
+        "report poor service",
+        "keep your documents safe",
+        "follow official procedures",
+        "verify service information",
+        "request an official receipt",
+        "track your application using authorised platforms",
+        "report unofficial charges",
+        "protect your personal information",
+        "confirm service requirements before travelling",
+        "use authorised payment methods",
+        "seek assistance from designated service officers"
+      ],
+      "locations": [
+        "Huduma Centres",
+        "government offices",
+        "county offices",
+        "service centres",
+        "online government portals",
+        "registration offices",
+        "public hospitals",
+        "local administrative offices"
+      ],
+      "terminology": [
+        "public service",
+        "service delivery",
+        "citizen services",
+        "government services",
+        "efficiency",
+        "accessible services",
+        "official procedures",
+        "service accountability"
+      ],
+      "rules": []
+    },
+    "Anti-Corruption": {
+      "institutions": [
+        "Ethics and Anti-Corruption Commission",
+        "Office of the Auditor-General",
+        "Directorate of Criminal Investigations",
+        "County Government",
+        "Kenya Revenue Authority",
+        "Public Procurement Regulatory Authority",
+        "Office of the Director of Public Prosecutions",
+        "Controller of Budget",
+        "Parliament",
+        "Judiciary"
+      ],
+      "audiences": [
+        "public officers",
+        "citizens",
+        "contractors",
+        "business owners",
+        "members of the public",
+        "suppliers",
+        "county employees",
+        "service users",
+        "community leaders",
+        "procurement officers"
+      ],
+      "hazards": [
+        "bribery",
+        "fraud",
+        "embezzlement",
+        "abuse of office",
+        "conflict of interest",
+        "procurement manipulation",
+        "misuse of public funds",
+        "false claims",
+        "illegal payments",
+        "nepotism"
+      ],
+      "actions": [
+        "refuse to pay bribes",
+        "report corruption",
+        "keep transaction records",
+        "follow procurement rules",
+        "use official payment channels",
+        "declare conflicts of interest",
+        "request official receipts",
+        "protect public resources",
+        "report suspicious transactions",
+        "avoid unofficial intermediaries",
+        "cooperate with authorised investigations",
+        "verify procurement information"
+      ],
+      "locations": [
+        "government offices",
+        "public institutions",
+        "counties",
+        "workplaces",
+        "service centres",
+        "procurement offices",
+        "revenue collection points",
+        "public projects"
+      ],
+      "terminology": [
+        "integrity",
+        "transparency",
+        "accountability",
+        "anti-corruption",
+        "public resources",
+        "ethical leadership",
+        "financial oversight",
+        "responsible procurement"
+      ],
+      "rules": []
+    },
+    "Civic Participation": {
+      "institutions": [
+        "County Assembly",
+        "County Government",
+        "Civil Society Organizations",
+        "Parliament",
+        "National Government",
+        "Community-Based Organizations",
+        "Ward Administration",
+        "Youth Councils",
+        "Residents Associations",
+        "Local Development Committees"
+      ],
+      "audiences": [
+        "citizens",
+        "community members",
+        "youth",
+        "women",
+        "local leaders",
+        "persons with disabilities",
+        "business owners",
+        "students",
+        "residents",
+        "civil society groups"
+      ],
+      "hazards": [
+        "public apathy",
+        "misinformation",
+        "exclusion",
+        "low participation",
+        "conflict",
+        "political intolerance",
+        "poor representation",
+        "community division",
+        "lack of public awareness",
+        "disruptive conduct"
+      ],
+      "actions": [
+        "attend public participation meetings",
+        "share constructive views",
+        "stay informed",
+        "respect different opinions",
+        "engage peacefully",
+        "review public proposals",
+        "submit feedback through official channels",
+        "support inclusive participation",
+        "ask questions about public projects",
+        "encourage youth participation",
+        "participate in community planning",
+        "verify information before public meetings"
+      ],
+      "locations": [
+        "community halls",
+        "county offices",
+        "public forums",
+        "villages",
+        "towns",
+        "ward meetings",
+        "schools",
+        "online consultation platforms"
+      ],
+      "terminology": [
+        "public participation",
+        "citizen engagement",
+        "inclusive governance",
+        "community dialogue",
+        "civic responsibility",
+        "public consultation",
+        "community representation",
+        "participatory governance"
+      ],
+      "rules": []
+    },
+    "Rule of Law": {
+      "institutions": [
+        "Judiciary",
+        "National Police Service",
+        "Office of the Director of Public Prosecutions",
+        "Kenya Law Reform Commission",
+        "Courts",
+        "Office of the Attorney-General",
+        "Probation and Aftercare Service",
+        "National Legal Aid Service",
+        "County Government",
+        "Community Justice Centres"
+      ],
+      "audiences": [
+        "citizens",
+        "residents",
+        "drivers",
+        "business owners",
+        "community members",
+        "employers",
+        "employees",
+        "youth",
+        "local leaders",
+        "members of the public"
+      ],
+      "hazards": [
+        "lawlessness",
+        "crime",
+        "mob justice",
+        "violence",
+        "illegal activities",
+        "witness intimidation",
+        "property destruction",
+        "unlawful detention",
+        "public disorder",
+        "disregard for court orders"
+      ],
+      "actions": [
+        "obey the law",
+        "report crimes",
+        "cooperate with authorities",
+        "respect court decisions",
+        "resolve disputes peacefully",
+        "seek legal assistance",
+        "avoid mob justice",
+        "protect evidence",
+        "respect due process",
+        "report threats to witnesses",
+        "follow lawful instructions",
+        "use recognised dispute-resolution channels"
+      ],
+      "locations": [
+        "courts",
+        "communities",
+        "roads",
+        "public spaces",
+        "workplaces",
+        "police stations",
+        "business premises",
+        "local justice centres"
+      ],
+      "terminology": [
+        "rule of law",
+        "justice",
+        "legal rights",
+        "public order",
+        "due process",
+        "access to justice",
+        "lawful conduct",
+        "legal accountability"
+      ],
+      "rules": []
+    },
+    "Transparency and Accountability": {
+      "institutions": [
+        "Office of the Ombudsman",
+        "County Government",
+        "Parliament",
+        "Office of the Auditor-General",
+        "Public Procurement Regulatory Authority",
+        "Controller of Budget",
+        "Commission on Administrative Justice",
+        "County Assembly",
+        "National Treasury",
+        "Civil Society Organizations"
+      ],
+      "audiences": [
+        "public officers",
+        "citizens",
+        "community members",
+        "civil society groups",
+        "journalists",
+        "contractors",
+        "residents",
+        "project committees",
+        "business owners",
+        "members of the public"
+      ],
+      "hazards": [
+        "lack of transparency",
+        "misuse of public funds",
+        "poor accountability",
+        "false reporting",
+        "hidden information",
+        "inflated project costs",
+        "delayed financial reports",
+        "unmonitored public projects",
+        "irregular procurement",
+        "conflicts of interest"
+      ],
+      "actions": [
+        "request public information",
+        "report misuse of funds",
+        "monitor public projects",
+        "promote openness",
+        "follow reporting procedures",
+        "verify budget information",
+        "attend public budget meetings",
+        "ask for project updates",
+        "report procurement irregularities",
+        "review official audit findings",
+        "keep public records accurate",
+        "support independent oversight"
+      ],
+      "locations": [
+        "government offices",
+        "public projects",
+        "counties",
+        "communities",
+        "public institutions",
+        "county assemblies",
+        "budget forums",
+        "procurement offices"
+      ],
+      "terminology": [
+        "transparency",
+        "accountability",
+        "open government",
+        "public oversight",
+        "good governance",
+        "public reporting",
+        "budget accountability",
+        "financial transparency"
+      ],
+      "rules": []
+    },
+    "Human Rights": {
+      "institutions": [
+        "Kenya National Commission on Human Rights",
+        "Judiciary",
+        "National Gender and Equality Commission",
+        "County Government",
+        "Ministry of Labour",
+        "Children Services",
+        "National Legal Aid Service",
+        "Commission on Administrative Justice",
+        "National Police Service",
+        "Civil Society Organizations"
+      ],
+      "audiences": [
+        "citizens",
+        "employees",
+        "children",
+        "women",
+        "persons with disabilities",
+        "older persons",
+        "refugees",
+        "employers",
+        "community leaders",
+        "members of the public"
+      ],
+      "hazards": [
+        "discrimination",
+        "gender-based violence",
+        "child abuse",
+        "human rights violations",
+        "exploitation",
+        "workplace harassment",
+        "denial of services",
+        "hate speech",
+        "unlawful detention",
+        "neglect of vulnerable persons"
+      ],
+      "actions": [
+        "report rights violations",
+        "respect the rights of others",
+        "seek legal assistance",
+        "promote equality",
+        "support vulnerable groups",
+        "report discrimination",
+        "protect children from abuse",
+        "challenge harmful stereotypes",
+        "use official complaint channels",
+        "support equal access to services",
+        "speak out against exploitation",
+        "treat every person with dignity"
+      ],
+      "locations": [
+        "schools",
+        "communities",
+        "workplaces",
+        "public institutions",
+        "homes",
+        "health facilities",
+        "police stations",
+        "service centres"
+      ],
+      "terminology": [
+        "human rights",
+        "equality",
+        "non-discrimination",
+        "dignity",
+        "justice",
+        "equal opportunity",
+        "legal protection",
+        "social inclusion"
+      ],
+      "rules": []
+    },
+    "Disaster and Crisis Governance": {
+      "institutions": [
+        "National Disaster Operations Centre",
+        "Kenya Red Cross",
+        "County Government",
+        "Ministry of Interior",
+        "National Government",
+        "National Drought Management Authority",
+        "Kenya Meteorological Department",
+        "Ministry of Health",
+        "National Police Service",
+        "County Emergency Committees"
+      ],
+      "audiences": [
+        "residents",
+        "households",
+        "community members",
+        "volunteers",
+        "members of the public",
+        "local leaders",
+        "drivers",
+        "business owners",
+        "farmers",
+        "school communities"
+      ],
+      "hazards": [
+        "floods",
+        "drought",
+        "disease outbreaks",
+        "landslides",
+        "fires",
+        "severe storms",
+        "building collapse",
+        "transport emergencies",
+        "food shortages",
+        "public health emergencies"
+      ],
+      "actions": [
+        "follow official advisories",
+        "evacuate when instructed",
+        "report emergencies",
+        "prepare emergency supplies",
+        "share verified information",
+        "identify safe evacuation routes",
+        "assist vulnerable neighbours",
+        "keep emergency contacts available",
+        "avoid restricted disaster areas",
+        "store clean drinking water",
+        "follow instructions from emergency responders",
+        "participate in community preparedness activities"
+      ],
+      "locations": [
+        "evacuation centres",
+        "communities",
+        "counties",
+        "public shelters",
+        "affected areas",
+        "schools",
+        "markets",
+        "transport routes"
+      ],
+      "terminology": [
+        "disaster response",
+        "emergency coordination",
+        "preparedness",
+        "public safety",
+        "resilience",
+        "risk reduction",
+        "early warning",
+        "crisis communication"
+      ],
+      "rules": []
+    }
+  }
+}

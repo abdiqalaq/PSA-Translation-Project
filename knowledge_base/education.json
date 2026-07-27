@@ -1,0 +1,396 @@
+{
+  "domain": "Education",
+  "subcategories": {
+    "School Attendance": {
+      "institutions": [
+        "Ministry of Education",
+        "County Education Office",
+        "school administration",
+        "Board of Management",
+        "Teachers Service Commission"
+      ],
+      "audiences": [
+        "learners",
+        "parents and guardians",
+        "teachers",
+        "school administrators",
+        "community leaders"
+      ],
+      "hazards": [
+        "school absenteeism",
+        "persistent lateness",
+        "school dropout",
+        "poor attendance",
+        "loss of learning time",
+        "unexplained absences"
+      ],
+      "actions": [
+        "attend school regularly",
+        "arrive at school on time",
+        "report unexplained absences promptly",
+        "support learners facing attendance difficulties",
+        "monitor learner attendance consistently",
+        "encourage children to remain in school",
+        "communicate attendance concerns to the school"
+      ],
+      "locations": [
+        "primary schools",
+        "secondary schools",
+        "boarding schools",
+        "day schools",
+        "local communities"
+      ],
+      "terminology": [
+        "school attendance",
+        "learner retention",
+        "punctuality",
+        "learning continuity",
+        "school enrolment"
+      ],
+      "rules": []
+    },
+    "Teaching and Learning": {
+      "institutions": [
+        "Ministry of Education",
+        "Kenya Institute of Curriculum Development",
+        "Teachers Service Commission",
+        "school administration",
+        "National Library Service"
+      ],
+      "audiences": [
+        "learners",
+        "teachers",
+        "parents and guardians",
+        "teacher trainees",
+        "school administrators"
+      ],
+      "hazards": [
+        "learning gaps",
+        "poor reading habits",
+        "low academic performance",
+        "incomplete assignments",
+        "limited learner participation",
+        "misuse of learning resources"
+      ],
+      "actions": [
+        "complete assignments on time",
+        "revise lessons consistently",
+        "ask for help when lessons are unclear",
+        "use approved learning resources",
+        "participate actively in classroom activities",
+        "develop regular reading habits",
+        "provide constructive feedback to learners",
+        "support learners experiencing academic difficulties"
+      ],
+      "locations": [
+        "classrooms",
+        "school libraries",
+        "learning centres",
+        "study rooms",
+        "digital classrooms"
+      ],
+      "terminology": [
+        "academic progress",
+        "critical thinking",
+        "reading culture",
+        "learning outcomes",
+        "curriculum delivery"
+      ],
+      "rules": []
+    },
+    "Examinations and Assessment": {
+      "institutions": [
+        "Kenya National Examinations Council",
+        "Ministry of Education",
+        "school administration",
+        "examination office",
+        "Teachers Service Commission"
+      ],
+      "audiences": [
+        "examination candidates",
+        "teachers",
+        "invigilators",
+        "school administrators",
+        "parents and guardians"
+      ],
+      "hazards": [
+        "examination malpractice",
+        "poor examination preparation",
+        "late examination registration",
+        "examination stress",
+        "missing candidate information",
+        "failure to follow examination instructions"
+      ],
+      "actions": [
+        "prepare honestly for examinations",
+        "arrive at the examination venue early",
+        "follow all examination instructions",
+        "verify candidate registration details",
+        "report suspected examination malpractice",
+        "carry only approved examination materials",
+        "manage revision time carefully",
+        "review answers before submitting"
+      ],
+      "locations": [
+        "examination centres",
+        "school halls",
+        "classrooms",
+        "registration offices",
+        "assessment centres"
+      ],
+      "terminology": [
+        "examination integrity",
+        "continuous assessment",
+        "candidate registration",
+        "academic honesty",
+        "assessment procedures"
+      ],
+      "rules": []
+    },
+    "School Health and Hygiene": {
+      "institutions": [
+        "Ministry of Health",
+        "Ministry of Education",
+        "School Health Programme",
+        "County Health Department",
+        "school administration"
+      ],
+      "audiences": [
+        "learners",
+        "teachers",
+        "school staff",
+        "food handlers",
+        "parents and guardians"
+      ],
+      "hazards": [
+        "poor hygiene",
+        "unsafe drinking water",
+        "food contamination",
+        "spread of infectious diseases",
+        "malnutrition",
+        "poor menstrual hygiene"
+      ],
+      "actions": [
+        "wash hands with soap and clean water",
+        "keep classrooms and washrooms clean",
+        "report signs of illness early",
+        "drink water from safe sources",
+        "dispose of waste safely",
+        "follow safe food-handling practices",
+        "support good nutrition among learners",
+        "promote menstrual hygiene with dignity"
+      ],
+      "locations": [
+        "classrooms",
+        "school washrooms",
+        "school kitchens",
+        "dining halls",
+        "school compounds"
+      ],
+      "terminology": [
+        "school hygiene",
+        "handwashing",
+        "safe drinking water",
+        "learner nutrition",
+        "menstrual hygiene"
+      ],
+      "rules": []
+    },
+    "Child Protection and School Safety": {
+      "institutions": [
+        "Ministry of Education",
+        "Children Services Department",
+        "school administration",
+        "Board of Management",
+        "County Education Office"
+      ],
+      "audiences": [
+        "learners",
+        "teachers",
+        "parents and guardians",
+        "school staff",
+        "community members"
+      ],
+      "hazards": [
+        "bullying",
+        "child abuse",
+        "school violence",
+        "harassment",
+        "unsafe school facilities",
+        "drug abuse"
+      ],
+      "actions": [
+        "report bullying immediately",
+        "report child protection concerns to a trusted authority",
+        "respect the rights and personal boundaries of others",
+        "support learners affected by violence",
+        "follow school emergency procedures",
+        "report unsafe conditions promptly",
+        "promote a safe and inclusive learning environment",
+        "seek help from a trusted adult"
+      ],
+      "locations": [
+        "school compounds",
+        "classrooms",
+        "boarding facilities",
+        "playgrounds",
+        "school transport vehicles"
+      ],
+      "terminology": [
+        "child protection",
+        "learner welfare",
+        "school safety",
+        "anti-bullying",
+        "safe learning environment"
+      ],
+      "rules": []
+    },
+    "ICT and Digital Safety": {
+      "institutions": [
+        "Communications Authority",
+        "Ministry of Education",
+        "School ICT Department",
+        "Kenya Institute of Curriculum Development",
+        "school administration"
+      ],
+      "audiences": [
+        "learners",
+        "teachers",
+        "parents and guardians",
+        "school administrators",
+        "digital learning coordinators"
+      ],
+      "hazards": [
+        "cyberbullying",
+        "online scams",
+        "identity theft",
+        "unsafe internet use",
+        "sharing personal information online",
+        "accessing harmful online content"
+      ],
+      "actions": [
+        "use strong and unique passwords",
+        "report cyberbullying to a trusted adult",
+        "avoid suspicious links and downloads",
+        "protect personal information online",
+        "verify online information before sharing it",
+        "use school devices only for approved learning",
+        "log out after using shared computers",
+        "use respectful language online"
+      ],
+      "locations": [
+        "computer laboratories",
+        "digital classrooms",
+        "school libraries",
+        "ICT centres",
+        "online learning platforms"
+      ],
+      "terminology": [
+        "digital citizenship",
+        "online safety",
+        "cybersecurity",
+        "data privacy",
+        "responsible internet use"
+      ],
+      "rules": []
+    },
+    "Parent and Community Engagement": {
+      "institutions": [
+        "Ministry of Education",
+        "Parents Association",
+        "Board of Management",
+        "County Education Office",
+        "school administration"
+      ],
+      "audiences": [
+        "parents and guardians",
+        "community leaders",
+        "teachers",
+        "school administrators",
+        "families"
+      ],
+      "hazards": [
+        "low parental involvement",
+        "poor communication between families and schools",
+        "lack of home learning support",
+        "school dropout",
+        "misinformation about school activities",
+        "limited community participation"
+      ],
+      "actions": [
+        "attend school meetings regularly",
+        "communicate with teachers about learner progress",
+        "support homework and study at home",
+        "encourage children to attend school",
+        "participate in school activities",
+        "verify official school information",
+        "report barriers preventing children from attending school",
+        "create a supportive home learning environment"
+      ],
+      "locations": [
+        "schools",
+        "homes",
+        "community halls",
+        "parent meetings",
+        "local communities"
+      ],
+      "terminology": [
+        "parental involvement",
+        "community participation",
+        "home learning support",
+        "school-community partnership",
+        "learner support"
+      ],
+      "rules": []
+    },
+    "Education Administration": {
+      "institutions": [
+        "Ministry of Education",
+        "County Education Office",
+        "school administration",
+        "Board of Management",
+        "Education Standards Office"
+      ],
+      "audiences": [
+        "school administrators",
+        "teachers",
+        "administrative staff",
+        "education officers",
+        "Board of Management members"
+      ],
+      "hazards": [
+        "inaccurate school records",
+        "late learner registration",
+        "misuse of school resources",
+        "poor communication",
+        "loss of confidential information",
+        "delayed administrative services"
+      ],
+      "actions": [
+        "maintain accurate school records",
+        "complete learner registration on time",
+        "manage school resources responsibly",
+        "communicate official updates clearly",
+        "protect confidential learner information",
+        "follow approved education procedures",
+        "report administrative errors promptly",
+        "use official communication channels"
+      ],
+      "locations": [
+        "school offices",
+        "registration offices",
+        "county education offices",
+        "administration blocks",
+        "records departments"
+      ],
+      "terminology": [
+        "school administration",
+        "learner registration",
+        "records management",
+        "education accountability",
+        "resource management"
+      ],
+      "rules": []
+    }
+  }
+}

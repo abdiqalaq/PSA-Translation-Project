@@ -1,0 +1,1767 @@
+{
+  "domain": "Health",
+  "subcategories": {
+    "Disease Prevention and Control": {
+      "institutions": [
+        "Ministry of Health",
+        "County Department of Health",
+        "World Health Organization",
+        "Kenya Red Cross Society",
+        "National Public Health Institute",
+        "local health authorities",
+        "community health services",
+        "disease surveillance teams"
+      ],
+      "audiences": [
+        "members of the public",
+        "parents and caregivers",
+        "school communities",
+        "healthcare workers",
+        "travellers",
+        "market traders",
+        "food handlers",
+        "residents of affected areas",
+        "community leaders",
+        "vulnerable households"
+      ],
+      "hazards": [
+        "cholera",
+        "malaria",
+        "tuberculosis",
+        "measles",
+        "influenza",
+        "COVID-19",
+        "dengue fever",
+        "food-borne illness",
+        "water-borne disease",
+        "infectious disease outbreaks",
+        "mosquito-borne diseases",
+        "poor sanitation",
+        "contaminated drinking water",
+        "delayed disease reporting",
+        "the spread of preventable infections"
+      ],
+      "actions": [
+        "wash your hands regularly with soap and clean water",
+        "drink treated or boiled water",
+        "use insecticide-treated mosquito nets every night",
+        "seek medical attention when symptoms appear",
+        "report suspected disease outbreaks to health authorities",
+        "complete all prescribed medication",
+        "keep homes and public spaces clean",
+        "cover your mouth and nose when coughing or sneezing",
+        "avoid close contact with people showing symptoms",
+        "follow official vaccination schedules",
+        "store food safely and cook it thoroughly",
+        "remove stagnant water around homes",
+        "use approved sanitation facilities",
+        "follow verified public-health guidance",
+        "visit the nearest health facility for testing",
+        "avoid sharing personal items with infected persons",
+        "clean frequently touched surfaces",
+        "isolate when advised by a healthcare professional",
+        "ensure children receive routine immunization",
+        "notify community health workers about unusual symptoms"
+      ],
+      "locations": [
+        "homes",
+        "schools",
+        "markets",
+        "workplaces",
+        "health facilities",
+        "public transport stations",
+        "informal settlements",
+        "rural communities",
+        "urban neighbourhoods",
+        "border areas",
+        "disease outbreak zones",
+        "food preparation areas",
+        "water collection points",
+        "community centres",
+        "public gatherings"
+      ],
+      "terminology": [
+        "infection prevention",
+        "disease surveillance",
+        "early diagnosis",
+        "community protection",
+        "public hygiene",
+        "vaccination",
+        "sanitation",
+        "outbreak control",
+        "preventive healthcare",
+        "health screening",
+        "vector control",
+        "safe water",
+        "respiratory hygiene",
+        "contact tracing",
+        "community health"
+      ],
+      "rules": [
+        {
+          "action": "wash your hands regularly with soap and clean water",
+          "hazards": [
+            "cholera",
+            "food-borne illness",
+            "water-borne disease",
+            "infectious disease outbreaks",
+            "the spread of preventable infections"
+          ],
+          "institutions": [
+            "Ministry of Health",
+            "County Department of Health",
+            "World Health Organization",
+            "community health services"
+          ],
+          "audiences": [
+            "members of the public",
+            "parents and caregivers",
+            "school communities",
+            "food handlers",
+            "market traders"
+          ],
+          "locations": [
+            "homes",
+            "schools",
+            "markets",
+            "food preparation areas",
+            "public gatherings"
+          ],
+          "terminology": [
+            "infection prevention",
+            "public hygiene",
+            "sanitation",
+            "community protection"
+          ]
+        },
+        {
+          "action": "drink treated or boiled water",
+          "hazards": [
+            "cholera",
+            "water-borne disease",
+            "contaminated drinking water",
+            "infectious disease outbreaks"
+          ],
+          "institutions": [
+            "Ministry of Health",
+            "County Department of Health",
+            "World Health Organization",
+            "local health authorities"
+          ],
+          "audiences": [
+            "members of the public",
+            "parents and caregivers",
+            "residents of affected areas",
+            "vulnerable households"
+          ],
+          "locations": [
+            "homes",
+            "rural communities",
+            "informal settlements",
+            "water collection points",
+            "disease outbreak zones"
+          ],
+          "terminology": [
+            "safe water",
+            "sanitation",
+            "infection prevention",
+            "outbreak control"
+          ]
+        },
+        {
+          "action": "use insecticide-treated mosquito nets every night",
+          "hazards": [
+            "malaria",
+            "dengue fever",
+            "mosquito-borne diseases"
+          ],
+          "institutions": [
+            "Ministry of Health",
+            "County Department of Health",
+            "World Health Organization",
+            "community health services"
+          ],
+          "audiences": [
+            "members of the public",
+            "parents and caregivers",
+            "pregnant women",
+            "vulnerable households",
+            "residents of affected areas"
+          ],
+          "locations": [
+            "homes",
+            "rural communities",
+            "informal settlements",
+            "disease outbreak zones"
+          ],
+          "terminology": [
+            "vector control",
+            "disease prevention",
+            "community protection",
+            "preventive healthcare"
+          ]
+        },
+        {
+          "action": "seek medical attention when symptoms appear",
+          "hazards": [
+            "tuberculosis",
+            "measles",
+            "influenza",
+            "COVID-19",
+            "dengue fever",
+            "infectious disease outbreaks"
+          ],
+          "institutions": [
+            "Ministry of Health",
+            "County Department of Health",
+            "public hospitals",
+            "local health authorities"
+          ],
+          "audiences": [
+            "members of the public",
+            "travellers",
+            "school communities",
+            "residents of affected areas",
+            "vulnerable households"
+          ],
+          "locations": [
+            "health facilities",
+            "homes",
+            "schools",
+            "rural communities",
+            "urban neighbourhoods"
+          ],
+          "terminology": [
+            "early diagnosis",
+            "health screening",
+            "preventive healthcare",
+            "disease surveillance"
+          ]
+        },
+        {
+          "action": "report suspected disease outbreaks to health authorities",
+          "hazards": [
+            "cholera",
+            "measles",
+            "COVID-19",
+            "infectious disease outbreaks",
+            "delayed disease reporting"
+          ],
+          "institutions": [
+            "Ministry of Health",
+            "County Department of Health",
+            "National Public Health Institute",
+            "disease surveillance teams"
+          ],
+          "audiences": [
+            "members of the public",
+            "healthcare workers",
+            "community leaders",
+            "school communities",
+            "residents of affected areas"
+          ],
+          "locations": [
+            "schools",
+            "markets",
+            "health facilities",
+            "rural communities",
+            "disease outbreak zones"
+          ],
+          "terminology": [
+            "disease surveillance",
+            "outbreak control",
+            "early diagnosis",
+            "community health"
+          ]
+        },
+        {
+          "action": "complete all prescribed medication",
+          "hazards": [
+            "tuberculosis",
+            "infectious disease outbreaks",
+            "the spread of preventable infections"
+          ],
+          "institutions": [
+            "Ministry of Health",
+            "public hospitals",
+            "community health services",
+            "local health authorities"
+          ],
+          "audiences": [
+            "patients",
+            "members of the public",
+            "parents and caregivers",
+            "residents of affected areas"
+          ],
+          "locations": [
+            "homes",
+            "health facilities",
+            "rural communities",
+            "urban neighbourhoods"
+          ],
+          "terminology": [
+            "treatment adherence",
+            "infection prevention",
+            "preventive healthcare",
+            "community protection"
+          ]
+        },
+        {
+          "action": "cover your mouth and nose when coughing or sneezing",
+          "hazards": [
+            "tuberculosis",
+            "influenza",
+            "COVID-19",
+            "the spread of preventable infections"
+          ],
+          "institutions": [
+            "Ministry of Health",
+            "World Health Organization",
+            "County Department of Health",
+            "community health services"
+          ],
+          "audiences": [
+            "members of the public",
+            "school communities",
+            "travellers",
+            "healthcare workers"
+          ],
+          "locations": [
+            "schools",
+            "workplaces",
+            "public transport stations",
+            "public gatherings",
+            "health facilities"
+          ],
+          "terminology": [
+            "respiratory hygiene",
+            "infection prevention",
+            "community protection",
+            "public hygiene"
+          ]
+        },
+        {
+          "action": "remove stagnant water around homes",
+          "hazards": [
+            "malaria",
+            "dengue fever",
+            "mosquito-borne diseases"
+          ],
+          "institutions": [
+            "Ministry of Health",
+            "County Department of Health",
+            "local health authorities",
+            "community health services"
+          ],
+          "audiences": [
+            "members of the public",
+            "parents and caregivers",
+            "community leaders",
+            "residents of affected areas"
+          ],
+          "locations": [
+            "homes",
+            "rural communities",
+            "urban neighbourhoods",
+            "informal settlements"
+          ],
+          "terminology": [
+            "vector control",
+            "community sanitation",
+            "disease prevention",
+            "environmental hygiene"
+          ]
+        },
+        {
+          "action": "store food safely and cook it thoroughly",
+          "hazards": [
+            "food-borne illness",
+            "cholera",
+            "infectious disease outbreaks"
+          ],
+          "institutions": [
+            "Ministry of Health",
+            "County Department of Health",
+            "local health authorities",
+            "community health services"
+          ],
+          "audiences": [
+            "food handlers",
+            "market traders",
+            "parents and caregivers",
+            "members of the public"
+          ],
+          "locations": [
+            "homes",
+            "markets",
+            "food preparation areas",
+            "schools"
+          ],
+          "terminology": [
+            "food safety",
+            "public hygiene",
+            "infection prevention",
+            "sanitation"
+          ]
+        },
+        {
+          "action": "ensure children receive routine immunization",
+          "hazards": [
+            "measles",
+            "infectious disease outbreaks",
+            "the spread of preventable infections"
+          ],
+          "institutions": [
+            "Ministry of Health",
+            "County Department of Health",
+            "community health services",
+            "public hospitals"
+          ],
+          "audiences": [
+            "parents and caregivers",
+            "families with young children",
+            "school communities",
+            "vulnerable households"
+          ],
+          "locations": [
+            "health facilities",
+            "schools",
+            "rural communities",
+            "urban neighbourhoods"
+          ],
+          "terminology": [
+            "vaccination",
+            "child immunization",
+            "preventive healthcare",
+            "community protection"
+          ]
+        }
+      ]
+    },
+    "Maternal and Child Health": {
+      "institutions": [
+        "Ministry of Health",
+        "County Department of Health",
+        "maternal health clinics",
+        "child welfare clinics",
+        "community health services",
+        "public hospitals",
+        "local health facilities",
+        "nutrition support programmes"
+      ],
+      "audiences": [
+        "pregnant women",
+        "new mothers",
+        "parents",
+        "caregivers",
+        "families with young children",
+        "adolescent mothers",
+        "expectant parents",
+        "community health volunteers",
+        "guardians of infants",
+        "women of reproductive age"
+      ],
+      "hazards": [
+        "pregnancy complications",
+        "delayed antenatal care",
+        "malnutrition",
+        "low birth weight",
+        "childhood illness",
+        "missed immunization",
+        "unsafe delivery practices",
+        "maternal infection",
+        "poor infant feeding",
+        "delayed medical treatment",
+        "anaemia during pregnancy",
+        "preventable maternal deaths",
+        "preventable childhood deaths",
+        "dehydration in children",
+        "insufficient postnatal care"
+      ],
+      "actions": [
+        "attend all scheduled antenatal clinic visits",
+        "deliver at a recognized health facility",
+        "take prescribed supplements as directed",
+        "ensure children receive all routine vaccinations",
+        "seek immediate care when pregnancy danger signs appear",
+        "breastfeed infants according to health guidance",
+        "take newborns for scheduled health check-ups",
+        "monitor children for signs of illness",
+        "provide children with a balanced diet",
+        "attend postnatal care appointments",
+        "consult a trained healthcare provider before taking medicine",
+        "keep the child's immunization records safely",
+        "seek treatment promptly when a child has difficulty breathing",
+        "follow safe infant feeding practices",
+        "register pregnant women with the nearest health facility",
+        "maintain good hygiene when preparing children's food",
+        "seek advice about family planning from qualified providers",
+        "ensure pregnant women sleep under treated mosquito nets",
+        "report severe bleeding or persistent pain immediately",
+        "support mothers in accessing maternal healthcare"
+      ],
+      "locations": [
+        "antenatal clinics",
+        "maternity hospitals",
+        "child welfare clinics",
+        "community health centres",
+        "public hospitals",
+        "rural health facilities",
+        "urban clinics",
+        "homes",
+        "nutrition centres",
+        "mobile health clinics",
+        "maternal waiting homes",
+        "pharmacies",
+        "family planning clinics",
+        "schools",
+        "community outreach centres"
+      ],
+      "terminology": [
+        "antenatal care",
+        "postnatal care",
+        "safe motherhood",
+        "child immunization",
+        "maternal nutrition",
+        "exclusive breastfeeding",
+        "skilled birth attendance",
+        "newborn care",
+        "child growth monitoring",
+        "family planning",
+        "maternal health",
+        "child health",
+        "pregnancy danger signs",
+        "infant nutrition",
+        "early childhood development"
+      ],
+      "rules": [
+  {
+    "action": "attend all scheduled antenatal clinic visits",
+    "hazards": [
+      "pregnancy complications",
+      "maternal illness",
+      "undiagnosed health conditions during pregnancy"
+    ],
+    "institutions": [
+      "Ministry of Health",
+      "maternal health clinics",
+      "County Department of Health",
+      "public hospitals"
+    ],
+    "audiences": [
+      "pregnant women",
+      "expectant mothers",
+      "families supporting pregnant women"
+    ],
+    "locations": [
+      "maternal health clinics",
+      "community health centres",
+      "public hospitals",
+      "rural communities"
+    ],
+    "terminology": [
+      "antenatal care",
+      "safe pregnancy",
+      "maternal health",
+      "early diagnosis"
+    ]
+  },
+  {
+    "action": "seek immediate care when pregnancy danger signs appear",
+    "hazards": [
+      "pregnancy complications",
+      "maternal infection",
+      "severe bleeding",
+      "high blood pressure during pregnancy"
+    ],
+    "institutions": [
+      "Ministry of Health",
+      "public hospitals",
+      "maternal health clinics",
+      "emergency health services"
+    ],
+    "audiences": [
+      "pregnant women",
+      "expectant mothers",
+      "families supporting pregnant women"
+    ],
+    "locations": [
+      "public hospitals",
+      "maternal health clinics",
+      "community health centres",
+      "remote communities"
+    ],
+    "terminology": [
+      "pregnancy danger signs",
+      "emergency maternal care",
+      "maternal safety",
+      "timely treatment"
+    ]
+  },
+  {
+    "action": "deliver at a recognized health facility",
+    "hazards": [
+      "unsafe delivery practices",
+      "birth complications",
+      "preventable maternal deaths",
+      "newborn complications"
+    ],
+    "institutions": [
+      "Ministry of Health",
+      "public hospitals",
+      "maternal health clinics",
+      "County Department of Health"
+    ],
+    "audiences": [
+      "pregnant women",
+      "expectant mothers",
+      "families preparing for childbirth"
+    ],
+    "locations": [
+      "recognized health facilities",
+      "public hospitals",
+      "maternal health clinics",
+      "community health centres"
+    ],
+    "terminology": [
+      "safe delivery",
+      "skilled birth attendance",
+      "maternal safety",
+      "newborn care"
+    ]
+  },
+  {
+    "action": "take prescribed supplements as directed",
+    "hazards": [
+      "anaemia during pregnancy",
+      "low birth weight",
+      "nutritional deficiencies",
+      "poor maternal nutrition"
+    ],
+    "institutions": [
+      "maternal health clinics",
+      "Ministry of Health",
+      "public hospitals",
+      "nutrition support programmes"
+    ],
+    "audiences": [
+      "pregnant women",
+      "expectant mothers",
+      "breastfeeding mothers"
+    ],
+    "locations": [
+      "maternal health clinics",
+      "community health centres",
+      "public hospitals",
+      "rural communities"
+    ],
+    "terminology": [
+      "maternal nutrition",
+      "iron supplementation",
+      "healthy pregnancy",
+      "nutrition support"
+    ]
+  },
+  {
+    "action": "support mothers in accessing maternal healthcare",
+    "hazards": [
+      "insufficient antenatal care",
+      "delayed maternal treatment",
+      "preventable maternal deaths",
+      "lack of skilled maternity care"
+    ],
+    "institutions": [
+      "community health services",
+      "County Department of Health",
+      "maternal health clinics",
+      "local health authorities"
+    ],
+    "audiences": [
+      "families",
+      "community leaders",
+      "partners of pregnant women",
+      "community health volunteers"
+    ],
+    "locations": [
+      "rural communities",
+      "informal settlements",
+      "remote areas",
+      "community health centres"
+    ],
+    "terminology": [
+      "maternal healthcare access",
+      "community support",
+      "safe motherhood",
+      "timely care"
+    ]
+  },
+  {
+    "action": "take newborns for scheduled health check-ups",
+    "hazards": [
+      "newborn illness",
+      "undiagnosed birth complications",
+      "poor infant growth",
+      "preventable newborn deaths"
+    ],
+    "institutions": [
+      "child welfare clinics",
+      "public hospitals",
+      "community health centres",
+      "Ministry of Health"
+    ],
+    "audiences": [
+      "new mothers",
+      "parents of newborns",
+      "caregivers",
+      "families with newborn babies"
+    ],
+    "locations": [
+      "child welfare clinics",
+      "community health centres",
+      "public hospitals",
+      "rural communities"
+    ],
+    "terminology": [
+      "newborn care",
+      "postnatal care",
+      "child growth monitoring",
+      "early diagnosis"
+    ]
+  },
+  {
+    "action": "ensure children receive all routine immunizations",
+    "hazards": [
+      "preventable childhood diseases",
+      "missed immunization",
+      "measles",
+      "childhood infections"
+    ],
+    "institutions": [
+      "Ministry of Health",
+      "child welfare clinics",
+      "public hospitals",
+      "community health services"
+    ],
+    "audiences": [
+      "parents",
+      "caregivers",
+      "families with young children",
+      "new mothers"
+    ],
+    "locations": [
+      "child welfare clinics",
+      "community health centres",
+      "schools",
+      "rural communities"
+    ],
+    "terminology": [
+      "routine immunization",
+      "child protection",
+      "vaccination coverage",
+      "disease prevention"
+    ]
+  },
+  {
+    "action": "keep the child's immunization records safe",
+    "hazards": [
+      "missed immunization",
+      "incomplete vaccination",
+      "delayed childhood vaccination",
+      "loss of medical records"
+    ],
+    "institutions": [
+      "child welfare clinics",
+      "Ministry of Health",
+      "community health centres",
+      "public hospitals"
+    ],
+    "audiences": [
+      "parents",
+      "caregivers",
+      "families with young children",
+      "new mothers"
+    ],
+    "locations": [
+      "homes",
+      "child welfare clinics",
+      "community health centres",
+      "schools"
+    ],
+    "terminology": [
+      "immunization records",
+      "continuity of care",
+      "child health monitoring",
+      "vaccination tracking"
+    ]
+  },
+  {
+    "action": "provide children with a balanced diet",
+    "hazards": [
+      "child malnutrition",
+      "poor child growth",
+      "nutritional deficiencies",
+      "weakened immunity"
+    ],
+    "institutions": [
+      "nutrition support programmes",
+      "child welfare clinics",
+      "Ministry of Health",
+      "community health services"
+    ],
+    "audiences": [
+      "parents",
+      "caregivers",
+      "families with young children",
+      "school communities"
+    ],
+    "locations": [
+      "homes",
+      "schools",
+      "rural communities",
+      "community health centres"
+    ],
+    "terminology": [
+      "child nutrition",
+      "balanced diet",
+      "healthy growth",
+      "nutrition support"
+    ]
+  },
+  {
+    "action": "follow safe infant feeding practices",
+    "hazards": [
+      "poor infant feeding",
+      "infant malnutrition",
+      "food-borne illness in infants",
+      "poor infant growth"
+    ],
+    "institutions": [
+      "child welfare clinics",
+      "maternal health clinics",
+      "nutrition support programmes",
+      "Ministry of Health"
+    ],
+    "audiences": [
+      "new mothers",
+      "breastfeeding mothers",
+      "caregivers of infants",
+      "families with newborn babies"
+    ],
+    "locations": [
+      "homes",
+      "maternal health clinics",
+      "child welfare clinics",
+      "community health centres"
+    ],
+    "terminology": [
+      "infant feeding",
+      "breastfeeding support",
+      "infant nutrition",
+      "healthy growth"
+    ]
+  },
+  {
+    "action": "monitor children for signs of illness",
+    "hazards": [
+      "childhood illness",
+      "respiratory infection",
+      "fever in children",
+      "delayed treatment"
+    ],
+    "institutions": [
+      "child welfare clinics",
+      "public hospitals",
+      "community health services",
+      "Ministry of Health"
+    ],
+    "audiences": [
+      "parents",
+      "caregivers",
+      "families with young children",
+      "teachers"
+    ],
+    "locations": [
+      "homes",
+      "schools",
+      "rural communities",
+      "community health centres"
+    ],
+    "terminology": [
+      "early diagnosis",
+      "child health monitoring",
+      "timely treatment",
+      "child welfare"
+    ]
+  },
+  {
+    "action": "seek treatment promptly when a child has difficulty breathing",
+    "hazards": [
+      "severe respiratory illness",
+      "pneumonia",
+      "breathing complications",
+      "preventable childhood deaths"
+    ],
+    "institutions": [
+      "public hospitals",
+      "child welfare clinics",
+      "emergency health services",
+      "community health centres"
+    ],
+    "audiences": [
+      "parents",
+      "caregivers",
+      "families with young children",
+      "teachers"
+    ],
+    "locations": [
+      "homes",
+      "schools",
+      "community health centres",
+      "public hospitals"
+    ],
+    "terminology": [
+      "emergency child care",
+      "timely treatment",
+      "respiratory health",
+      "child safety"
+    ]
+  },
+  {
+    "action": "seek advice about family planning from qualified providers",
+    "hazards": [
+      "unplanned pregnancy",
+      "unsafe family-planning information",
+      "closely spaced pregnancies",
+      "maternal health complications"
+    ],
+    "institutions": [
+      "maternal health clinics",
+      "Ministry of Health",
+      "public hospitals",
+      "community health centres"
+    ],
+    "audiences": [
+      "women of reproductive age",
+      "couples",
+      "young adults",
+      "families"
+    ],
+    "locations": [
+      "maternal health clinics",
+      "community health centres",
+      "public hospitals",
+      "rural communities"
+    ],
+    "terminology": [
+      "family planning",
+      "reproductive health",
+      "informed choice",
+      "maternal wellbeing"
+    ]
+  }
+]
+    },
+    "Public Health Campaigns": {
+      "institutions": [
+        "Ministry of Health",
+        "County Department of Health",
+        "World Health Organization",
+        "Kenya Red Cross Society",
+        "public health campaign teams",
+        "community health services",
+        "local government authorities",
+        "national vaccination programmes"
+      ],
+      "audiences": [
+        "members of the public",
+        "young people",
+        "parents",
+        "school communities",
+        "workers",
+        "older adults",
+        "people living with chronic conditions",
+        "community groups",
+        "rural residents",
+        "urban residents"
+      ],
+      "hazards": [
+        "low vaccination coverage",
+        "late disease diagnosis",
+        "poor sanitation",
+        "unsafe food handling",
+        "substance misuse",
+        "non-communicable diseases",
+        "misinformation about health",
+        "lack of health screening",
+        "preventable infections",
+        "poor personal hygiene",
+        "high blood pressure",
+        "diabetes",
+        "cancer",
+        "unhealthy lifestyles",
+        "delayed healthcare seeking"
+      ],
+      "actions": [
+        "participate in official vaccination campaigns",
+        "attend free health screening events",
+        "follow verified health information",
+        "avoid spreading unverified medical claims",
+        "maintain a clean home and neighbourhood",
+        "check your blood pressure regularly",
+        "seek screening for common preventable diseases",
+        "adopt healthy eating habits",
+        "remain physically active according to health guidance",
+        "reduce the consumption of harmful substances",
+        "participate in community clean-up activities",
+        "use public sanitation facilities responsibly",
+        "encourage family members to attend health campaigns",
+        "verify health messages using official sources",
+        "register for available public health programmes",
+        "dispose of household waste safely",
+        "support local disease-prevention activities",
+        "attend health education sessions",
+        "seek early diagnosis when symptoms persist",
+        "follow instructions issued during national health campaigns"
+      ],
+      "locations": [
+        "community centres",
+        "schools",
+        "markets",
+        "workplaces",
+        "health facilities",
+        "public parks",
+        "rural communities",
+        "urban neighbourhoods",
+        "religious centres",
+        "shopping centres",
+        "public transport areas",
+        "county referral hospitals",
+        "mobile clinics",
+        "sports grounds",
+        "public gatherings"
+      ],
+            "terminology": [
+        "health promotion",
+        "disease screening",
+        "vaccination campaign",
+        "public awareness",
+        "healthy living",
+        "community sanitation",
+        "preventive care",
+        "health education",
+        "early detection",
+        "risk reduction",
+        "community mobilisation",
+        "public health",
+        "behaviour change",
+        "wellness screening",
+        "health literacy"
+      ],
+      "rules": [
+        {
+          "action": "participate in official vaccination campaigns",
+          "hazards": [
+            "low vaccination coverage",
+            "preventable infections"
+          ],
+          "institutions": [
+            "Ministry of Health",
+            "World Health Organization",
+            "national vaccination programmes"
+          ],
+          "audiences": [
+            "parents",
+            "members of the public",
+            "school communities"
+          ],
+          "locations": [
+            "health facilities",
+            "schools",
+            "community centres"
+          ],
+          "terminology": [
+            "vaccination campaign",
+            "public health",
+            "preventive care"
+          ]
+        },
+        {
+          "action": "attend free health screening events",
+          "hazards": [
+            "late disease diagnosis",
+            "high blood pressure",
+            "diabetes",
+            "cancer"
+          ],
+          "institutions": [
+            "Ministry of Health",
+            "County Department of Health"
+          ],
+          "audiences": [
+            "older adults",
+            "members of the public",
+            "people living with chronic conditions"
+          ],
+          "locations": [
+            "county referral hospitals",
+            "mobile clinics",
+            "community centres"
+          ],
+          "terminology": [
+            "wellness screening",
+            "early detection",
+            "disease screening"
+          ]
+        },
+        {
+          "action": "follow verified health information",
+          "hazards": [
+            "misinformation about health"
+          ],
+          "institutions": [
+            "Ministry of Health",
+            "World Health Organization",
+            "Kenya Red Cross Society"
+          ],
+          "audiences": [
+            "members of the public",
+            "young people"
+          ],
+          "locations": [
+            "community centres",
+            "schools",
+            "online platforms"
+          ],
+                    "terminology": [
+            "health literacy",
+            "public awareness",
+            "health promotion"
+          ]
+        },
+        {
+          "action": "avoid spreading unverified medical claims",
+          "hazards": [
+            "misinformation about health"
+          ],
+          "institutions": [
+            "Ministry of Health",
+            "World Health Organization",
+            "County Department of Health"
+          ],
+          "audiences": [
+            "members of the public",
+            "young people",
+            "community groups"
+          ],
+          "locations": [
+            "schools",
+            "workplaces",
+            "public gatherings"
+          ],
+          "terminology": [
+            "health literacy",
+            "public awareness",
+            "health education"
+          ]
+        },
+        {
+          "action": "maintain a clean home and neighbourhood",
+          "hazards": [
+            "poor sanitation",
+            "preventable infections",
+            "poor personal hygiene"
+          ],
+          "institutions": [
+            "County Department of Health",
+            "community health services",
+            "local government authorities"
+          ],
+          "audiences": [
+            "members of the public",
+            "rural residents",
+            "urban residents"
+          ],
+          "locations": [
+            "rural communities",
+            "urban neighbourhoods",
+            "community centres"
+          ],
+          "terminology": [
+            "community sanitation",
+            "public health",
+            "risk reduction"
+          ]
+        },
+        {
+          "action": "check your blood pressure regularly",
+          "hazards": [
+            "high blood pressure",
+            "non-communicable diseases",
+            "late disease diagnosis"
+          ],
+          "institutions": [
+            "Ministry of Health",
+            "County Department of Health",
+            "community health services"
+          ],
+          "audiences": [
+            "older adults",
+            "workers",
+            "people living with chronic conditions"
+          ],
+          "locations": [
+            "health facilities",
+            "mobile clinics",
+            "workplaces"
+          ],
+          "terminology": [
+            "wellness screening",
+            "early detection",
+            "preventive care"
+          ]
+        },
+        {
+          "action": "seek screening for common preventable diseases",
+          "hazards": [
+            "lack of health screening",
+            "late disease diagnosis",
+            "preventable infections"
+          ],
+          "institutions": [
+            "Ministry of Health",
+            "County Department of Health",
+            "World Health Organization"
+          ],
+          "audiences": [
+            "members of the public",
+            "older adults",
+            "people living with chronic conditions"
+          ],
+          "locations": [
+            "health facilities",
+            "county referral hospitals",
+            "mobile clinics"
+          ],
+          "terminology": [
+            "disease screening",
+            "early detection",
+            "preventive care"
+          ]
+        },
+        {
+          "action": "adopt healthy eating habits",
+          "hazards": [
+            "unhealthy lifestyles",
+            "diabetes",
+            "high blood pressure",
+            "non-communicable diseases"
+          ],
+          "institutions": [
+            "Ministry of Health",
+            "County Department of Health",
+            "public health campaign teams"
+          ],
+          "audiences": [
+            "members of the public",
+            "young people",
+            "parents",
+            "people living with chronic conditions"
+          ],
+          "locations": [
+            "schools",
+            "workplaces",
+            "community centres"
+          ],
+          "terminology": [
+            "healthy living",
+            "behaviour change",
+            "risk reduction"
+          ]
+        }
+      ]
+    },
+    "Mental Health Awareness": {
+      "institutions": [
+        "Ministry of Health",
+        "County Mental Health Services",
+        "public hospitals",
+        "community health services",
+        "school counselling departments",
+        "workplace wellness programmes",
+        "mental health clinics",
+        "licensed counselling centres"
+      ],
+      "audiences": [
+        "members of the public",
+        "students",
+        "young people",
+        "parents",
+        "teachers",
+        "workers",
+        "caregivers",
+        "older adults",
+        "community leaders",
+        "families"
+      ],
+      "hazards": [
+        "untreated mental health conditions",
+        "social isolation",
+        "workplace stress",
+        "school-related stress",
+        "mental health stigma",
+        "substance misuse",
+        "delayed access to counselling",
+        "emotional distress",
+        "burnout",
+        "poor coping strategies",
+        "bullying",
+        "family conflict",
+        "discrimination",
+        "lack of social support",
+        "misinformation about mental health"
+      ],
+      "actions": [
+        "speak to a trusted adult or qualified counsellor when overwhelmed",
+        "seek professional mental health support when needed",
+        "listen without judgment to people experiencing distress",
+        "avoid using harmful language about mental health",
+        "take regular breaks during periods of intense work or study",
+        "support people seeking counselling or treatment",
+        "use healthy methods to manage stress",
+        "report bullying to the appropriate authority",
+        "participate in mental health awareness programmes",
+        "encourage open and respectful conversations about mental health",
+        "contact a recognized health facility for professional guidance",
+        "maintain supportive connections with family and friends",
+        "avoid self-medicating for emotional distress",
+        "follow treatment advice from qualified professionals",
+        "learn to recognize signs of emotional distress",
+        "create safe and supportive school environments",
+        "promote respectful workplace wellness practices",
+        "refer individuals to recognized support services",
+        "challenge false information about mental illness",
+        "check regularly on people who may need support"
+      ],
+      "locations": [
+        "schools",
+        "universities",
+        "workplaces",
+        "homes",
+        "health facilities",
+        "community centres",
+        "counselling centres",
+        "youth centres",
+        "religious centres",
+        "public hospitals",
+        "rural communities",
+        "urban neighbourhoods",
+        "sports clubs",
+        "social support groups",
+        "rehabilitation centres"
+      ],
+            "terminology": [
+        "mental wellbeing",
+        "emotional support",
+        "professional counselling",
+        "stress management",
+        "mental health awareness",
+        "psychological support",
+        "early intervention",
+        "supportive communication",
+        "workplace wellness",
+        "school counselling",
+        "stigma reduction",
+        "community support",
+        "healthy coping",
+        "emotional resilience",
+        "mental healthcare"
+      ],
+      "rules": [
+        {
+          "action": "speak to a trusted adult or qualified counsellor when overwhelmed",
+          "hazards": [
+            "emotional distress",
+            "school-related stress",
+            "workplace stress"
+          ],
+          "institutions": [
+            "school counselling departments",
+            "licensed counselling centres",
+            "County Mental Health Services"
+          ],
+          "audiences": [
+            "students",
+            "young people",
+            "workers"
+          ],
+          "locations": [
+            "schools",
+            "universities",
+            "workplaces"
+          ],
+          "terminology": [
+            "professional counselling",
+            "early intervention",
+            "emotional support"
+          ]
+        },
+        {
+          "action": "seek professional mental health support when needed",
+          "hazards": [
+            "untreated mental health conditions",
+            "delayed access to counselling",
+            "emotional distress"
+          ],
+          "institutions": [
+            "mental health clinics",
+            "public hospitals",
+            "licensed counselling centres"
+          ],
+          "audiences": [
+            "members of the public",
+            "workers",
+            "older adults"
+          ],
+          "locations": [
+            "health facilities",
+            "public hospitals",
+            "counselling centres"
+          ],
+          "terminology": [
+            "mental healthcare",
+            "professional counselling",
+            "psychological support"
+          ]
+        },
+        {
+          "action": "listen without judgment to people experiencing distress",
+          "hazards": [
+            "mental health stigma",
+            "social isolation",
+            "emotional distress"
+          ],
+          "institutions": [
+            "community health services",
+            "County Mental Health Services"
+          ],
+          "audiences": [
+            "families",
+            "caregivers",
+            "community leaders"
+          ],
+          "locations": [
+            "homes",
+            "community centres",
+            "social support groups"
+          ],
+          "terminology": [
+            "supportive communication",
+            "community support",
+            "mental wellbeing"
+          ]
+        }
+      ]
+    },
+    "Healthcare Access": {
+      "institutions": [
+        "Ministry of Health",
+        "County Department of Health",
+        "public hospitals",
+        "community health services",
+        "county referral hospitals",
+        "local health facilities",
+        "mobile health clinics",
+        "health insurance authorities"
+      ],
+      "audiences": [
+        "members of the public",
+        "rural households",
+        "low-income families",
+        "older adults",
+        "people with disabilities",
+        "pregnant women",
+        "parents and caregivers",
+        "people living with chronic conditions",
+        "young people",
+        "residents of remote areas"
+      ],
+      "hazards": [
+        "delayed medical treatment",
+        "unlicensed healthcare providers",
+        "counterfeit medicines",
+        "lack of health information",
+        "missed medical appointments",
+        "poor access to health facilities",
+        "untreated chronic illness",
+        "high treatment costs",
+        "incorrect medicine use",
+        "incomplete patient records",
+        "lack of emergency care",
+        "health insurance fraud",
+        "long distances to health facilities",
+        "failure to seek preventive care",
+        "unsafe online medical advice"
+      ],
+      "actions": [
+        "visit a recognized health facility when medical care is needed",
+        "use medicines only as prescribed by qualified professionals",
+        "register for available public health insurance programmes",
+        "keep all medical appointment dates",
+        "carry relevant health records when visiting a clinic",
+        "verify that healthcare providers are properly licensed",
+        "report suspected counterfeit medicines to the authorities",
+        "seek referrals through recognized health facilities",
+        "use official emergency medical contacts",
+        "attend regular check-ups for chronic health conditions",
+        "ask healthcare workers for clear treatment instructions",
+        "avoid buying medicine from unauthorized sellers",
+        "use available mobile clinics in remote areas",
+        "register births and medical records through official channels",
+        "seek early medical care before symptoms become severe",
+        "follow official information about available health services",
+        "report discrimination or denial of essential healthcare",
+        "support vulnerable family members in attending medical visits",
+        "confirm health insurance information through official offices",
+        "keep emergency health information easily accessible"
+      ],
+      "locations": [
+        "public hospitals",
+        "county referral hospitals",
+        "local health centres",
+        "dispensaries",
+        "mobile clinics",
+        "rural communities",
+        "urban neighbourhoods",
+        "pharmacies",
+        "maternal health clinics",
+        "emergency departments",
+        "community outreach centres",
+        "remote settlements",
+        "rehabilitation centres",
+        "specialist clinics",
+        "health insurance offices"
+      ],
+     "terminology": [
+        "universal health coverage",
+        "primary healthcare",
+        "patient referral",
+        "health insurance",
+        "essential healthcare",
+        "emergency care",
+        "qualified healthcare provider",
+        "patient records",
+        "medical follow-up",
+        "health service access",
+        "affordable healthcare",
+        "continuity of care",
+        "medicine safety",
+        "community healthcare",
+        "preventive services"
+      ],
+      "rules": [
+        {
+          "action": "seek early medical care before symptoms become severe",
+          "hazards": [
+            "delayed medical treatment",
+            "failure to seek preventive care",
+            "untreated chronic illness"
+          ],
+          "institutions": [
+            "Ministry of Health",
+            "County Department of Health",
+            "public hospitals",
+            "local health facilities"
+          ],
+          "audiences": [
+            "members of the public",
+            "older adults",
+            "people living with chronic conditions",
+            "rural households"
+          ],
+          "locations": [
+            "public hospitals",
+            "county referral hospitals",
+            "local health centres",
+            "dispensaries"
+          ],
+          "terminology": [
+            "primary healthcare",
+            "medical follow-up",
+            "health service access",
+            "preventive services"
+          ]
+        },
+        {
+          "action": "use medicines only as prescribed by qualified professionals",
+          "hazards": [
+            "incorrect medicine use",
+            "counterfeit medicines",
+            "unsafe online medical advice"
+          ],
+          "institutions": [
+            "Ministry of Health",
+            "public hospitals",
+            "community health services"
+          ],
+          "audiences": [
+            "members of the public",
+            "parents and caregivers",
+            "older adults"
+          ],
+          "locations": [
+            "pharmacies",
+            "public hospitals",
+            "local health centres"
+          ],
+          "terminology": [
+            "medicine safety",
+            "qualified healthcare provider",
+            "primary healthcare"
+          ]
+        },
+        {
+          "action": "register for available public health insurance programmes",
+          "hazards": [
+            "high treatment costs",
+            "health insurance fraud"
+          ],
+          "institutions": [
+            "health insurance authorities",
+            "Ministry of Health"
+          ],
+          "audiences": [
+            "low-income families",
+            "members of the public",
+            "rural households"
+          ],
+          "locations": [
+            "health insurance offices",
+            "community outreach centres"
+          ],
+          "terminology": [
+            "health insurance",
+            "universal health coverage",
+            "affordable healthcare"
+          ]
+        },
+        {
+          "action": "keep all medical appointment dates",
+          "hazards": [
+            "missed medical appointments",
+            "untreated chronic illness"
+          ],
+          "institutions": [
+            "public hospitals",
+            "community health services"
+          ],
+          "audiences": [
+            "people living with chronic conditions",
+            "older adults",
+            "pregnant women"
+          ],
+          "locations": [
+            "specialist clinics",
+            "public hospitals",
+            "maternal health clinics"
+          ],
+          "terminology": [
+            "medical follow-up",
+            "continuity of care",
+            "patient records"
+          ]
+        },
+        {
+          "action": "verify that healthcare providers are properly licensed",
+          "hazards": [
+            "unlicensed healthcare providers",
+            "unsafe online medical advice"
+          ],
+          "institutions": [
+            "Ministry of Health",
+            "County Department of Health"
+          ],
+          "audiences": [
+            "members of the public",
+            "parents and caregivers"
+          ],
+          "locations": [
+            "health insurance offices",
+            "pharmacies",
+            "urban neighbourhoods"
+          ],
+          "terminology": [
+            "qualified healthcare provider",
+            "medicine safety"
+          ]
+        },
+        {
+          "action": "report suspected counterfeit medicines to the authorities",
+          "hazards": [
+            "counterfeit medicines"
+          ],
+          "institutions": [
+            "County Department of Health",
+            "Ministry of Health"
+          ],
+          "audiences": [
+            "members of the public",
+            "parents and caregivers"
+          ],
+          "locations": [
+            "pharmacies",
+            "urban neighbourhoods"
+          ],
+          "terminology": [
+            "medicine safety",
+            "qualified healthcare provider"
+          ]
+        },
+        {
+          "action": "seek referrals through recognized health facilities",
+          "hazards": [
+            "delayed medical treatment",
+            "untreated chronic illness"
+          ],
+          "institutions": [
+            "public hospitals",
+            "county referral hospitals"
+          ],
+          "audiences": [
+            "patients",
+            "people living with chronic conditions"
+          ],
+          "locations": [
+            "county referral hospitals",
+            "specialist clinics"
+          ],
+          "terminology": [
+            "patient referral",
+            "continuity of care"
+          ]
+        },
+        {
+          "action": "use official emergency medical contacts",
+          "hazards": [
+            "lack of emergency care"
+          ],
+          "institutions": [
+            "Ministry of Health",
+            "County Department of Health"
+          ],
+          "audiences": [
+            "members of the public",
+            "families"
+          ],
+          "locations": [
+            "emergency departments",
+            "public hospitals"
+          ],
+                    "terminology": [
+            "emergency care",
+            "health service access"
+          ]
+        }
+      ]
+    }
+  }
+}

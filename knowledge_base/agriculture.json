@@ -1,0 +1,548 @@
+{
+  "domain": "Agriculture",
+  "subcategories": {
+    "Crop Production": {
+      "institutions": [
+        "County Agriculture Department",
+        "Kenya Plant Health Inspectorate Service",
+        "Kenya Agricultural and Livestock Research Organization",
+        "Agriculture and Food Authority",
+        "National Agricultural Research Centre"
+      ],
+      "audiences": [
+        "farmers",
+        "smallholder farmers",
+        "commercial farmers",
+        "crop farmers",
+        "new farmers",
+        "farmer groups",
+        "irrigation farmers",
+        "seed producers"
+      ],
+      "hazards": [
+        "crop failure",
+        "poor seed quality",
+        "late planting",
+        "declining soil fertility",
+        "weed infestation",
+        "nutrient deficiency",
+        "water stress",
+        "low crop yields",
+        "soil-borne disease",
+        "unpredictable rainfall"
+      ],
+      "actions": [
+        "plant certified seeds",
+        "test soil before applying fertilizer",
+        "plant crops at the recommended time",
+        "rotate crops between seasons",
+        "remove weeds before they compete with crops",
+        "apply fertilizer according to soil-test recommendations",
+        "use clean planting materials",
+        "select crop varieties suited to local conditions",
+        "monitor crops regularly during the growing season",
+        "follow recommended plant spacing",
+        "harvest crops at the correct maturity stage",
+        "prepare land before the onset of rains",
+        "use irrigation water efficiently",
+        "keep records of planting dates and farm inputs"
+      ],
+      "locations": [
+        "farms",
+        "crop fields",
+        "irrigated fields",
+        "rain-fed farms",
+        "high-potential farming areas",
+        "dryland farms",
+        "seed production plots",
+        "community demonstration farms"
+      ],
+      "terminology": [
+        "crop management",
+        "soil fertility management",
+        "certified seed use",
+        "farm productivity",
+        "good agronomic practices",
+        "crop rotation",
+        "responsible input use",
+        "sustainable crop production"
+      ]
+    },
+    "Livestock Health": {
+      "institutions": [
+        "Directorate of Veterinary Services",
+        "County Veterinary Department",
+        "Kenya Veterinary Vaccines Production Institute",
+        "Kenya Agricultural and Livestock Research Organization",
+        "Livestock Development Department"
+      ],
+      "audiences": [
+        "livestock farmers",
+        "pastoralists",
+        "dairy farmers",
+        "poultry farmers",
+        "goat keepers",
+        "sheep farmers",
+        "cattle keepers",
+        "animal traders"
+      ],
+      "hazards": [
+        "livestock disease outbreaks",
+        "foot-and-mouth disease",
+        "animal deaths",
+        "contagious animal disease",
+        "poor animal nutrition",
+        "parasite infestation",
+        "unsafe animal movement",
+        "mastitis",
+        "heat stress in livestock",
+        "contaminated animal feed"
+      ],
+      "actions": [
+        "vaccinate livestock according to veterinary guidance",
+        "report unusual animal illness to veterinary officers",
+        "isolate sick animals from healthy livestock",
+        "deworm animals according to veterinary advice",
+        "provide livestock with clean drinking water",
+        "keep animal shelters clean and well ventilated",
+        "quarantine newly purchased animals before mixing them with the herd",
+        "avoid moving animals from disease-affected areas",
+        "provide balanced feed suitable for each type of livestock",
+        "disinfect shared livestock equipment regularly",
+        "keep vaccination and treatment records",
+        "seek veterinary help when animals show signs of illness",
+        "protect livestock from extreme heat and cold",
+        "inspect animal feed for mould before use"
+      ],
+      "locations": [
+        "livestock farms",
+        "grazing areas",
+        "animal holding grounds",
+        "dairy farms",
+        "poultry units",
+        "livestock markets",
+        "pastoral areas",
+        "community grazing lands"
+      ],
+      "terminology": [
+        "animal vaccination",
+        "livestock biosecurity",
+        "animal health monitoring",
+        "safe livestock movement",
+        "herd health",
+        "disease surveillance",
+        "responsible animal husbandry",
+        "livestock nutrition"
+      ]
+    },
+    "Pest and Disease Management": {
+      "institutions": [
+        "Kenya Plant Health Inspectorate Service",
+        "Pest Control Products Board",
+        "County Agriculture Department",
+        "Agriculture and Food Authority",
+        "National Agricultural Research Centre"
+      ],
+      "audiences": [
+        "crop farmers",
+        "pesticide applicators",
+        "greenhouse farmers",
+        "horticulture farmers",
+        "farm workers",
+        "produce growers",
+        "farmer groups",
+        "agro-dealers"
+      ],
+      "hazards": [
+        "crop disease outbreaks",
+        "unsafe pesticide use",
+        "counterfeit pesticides",
+        "pest infestation",
+        "environmental contamination",
+        "pesticide poisoning",
+        "resistant crop pests",
+        "contaminated spray equipment",
+        "pollinator loss",
+        "improper pesticide disposal"
+      ],
+      "actions": [
+        "inspect crops regularly for signs of pests and disease",
+        "use only registered pest-control products",
+        "wear protective equipment when handling pesticides",
+        "follow pesticide label instructions",
+        "use the recommended pesticide dosage",
+        "avoid spraying pesticides near water sources",
+        "store pesticides away from food and animal feed",
+        "dispose of empty pesticide containers safely",
+        "wash spraying equipment after use",
+        "report suspected counterfeit pesticides",
+        "use integrated pest-management practices",
+        "remove and destroy heavily infected plant material safely",
+        "observe the recommended pre-harvest interval",
+        "keep children and animals away from pesticide storage areas"
+      ],
+      "locations": [
+        "crop fields",
+        "greenhouses",
+        "orchards",
+        "vegetable farms",
+        "flower farms",
+        "agro-input shops",
+        "irrigated farms",
+        "produce collection areas"
+      ],
+      "terminology": [
+        "integrated pest management",
+        "safe pesticide use",
+        "crop protection",
+        "pesticide stewardship",
+        "disease surveillance",
+        "responsible chemical handling",
+        "biological pest control",
+        "pest resistance management"
+      ]
+    },
+    "Food Safety and Post-Harvest Management": {
+      "institutions": [
+        "National Cereals and Produce Board",
+        "Kenya Bureau of Standards",
+        "Agriculture and Food Authority",
+        "County Agriculture Department",
+        "Public Health Department"
+      ],
+      "audiences": [
+        "grain producers",
+        "warehouse operators",
+        "food handlers",
+        "farmers",
+        "produce traders",
+        "millers",
+        "farmer cooperatives",
+        "market vendors"
+      ],
+      "hazards": [
+        "aflatoxin contamination",
+        "grain spoilage",
+        "mould growth",
+        "pest infestation in stores",
+        "food contamination",
+        "post-harvest losses",
+        "excess grain moisture",
+        "dirty storage facilities",
+        "chemical contamination of food",
+        "poor produce handling"
+      ],
+      "actions": [
+        "dry grain to the recommended moisture level before storage",
+        "store produce in clean, dry, and well-ventilated facilities",
+        "inspect stored grain regularly for pests and mould",
+        "keep food-storage areas free from rodents",
+        "separate damaged produce from good produce",
+        "use clean bags and containers for storage",
+        "avoid placing grain directly on the floor",
+        "clean storage facilities before loading new produce",
+        "protect stored produce from rain and moisture",
+        "observe hygiene when handling food products",
+        "use approved methods to control storage pests",
+        "label stored produce clearly",
+        "transport food in clean vehicles and containers",
+        "sell or process perishable produce before it spoils"
+      ],
+      "locations": [
+        "grain stores",
+        "warehouses",
+        "markets",
+        "produce collection centres",
+        "food-processing areas",
+        "farm stores",
+        "community granaries",
+        "storage facilities"
+      ],
+      "terminology": [
+        "aflatoxin prevention",
+        "safe food storage",
+        "grain quality",
+        "post-harvest management",
+        "food hygiene",
+        "moisture control",
+        "warehouse sanitation",
+        "loss reduction"
+      ]
+    },
+    "Soil and Water Conservation": {
+      "institutions": [
+        "Water Resources Authority",
+        "National Environment Management Authority",
+        "County Agriculture Department",
+        "Kenya Forest Service",
+        "Soil and Water Conservation Unit"
+      ],
+      "audiences": [
+        "farmers",
+        "pastoralists",
+        "landowners",
+        "irrigation farmers",
+        "community groups",
+        "watershed residents",
+        "dryland farmers",
+        "hillside farmers"
+      ],
+      "hazards": [
+        "soil erosion",
+        "land degradation",
+        "loss of soil fertility",
+        "water scarcity",
+        "drying water sources",
+        "riverbank destruction",
+        "siltation",
+        "overgrazing",
+        "runoff damage",
+        "desertification"
+      ],
+      "actions": [
+        "construct terraces on sloping farmland",
+        "protect riverbanks and water catchment areas",
+        "harvest and store rainwater safely",
+        "plant grass strips to reduce soil erosion",
+        "maintain vegetation cover on bare soil",
+        "avoid cultivating too close to riverbanks",
+        "use mulch to conserve soil moisture",
+        "repair damaged terraces before the rainy season",
+        "plant trees in suitable areas",
+        "control grazing to protect fragile land",
+        "direct runoff away from fields and buildings",
+        "use water-efficient irrigation methods",
+        "build contour bunds where appropriate",
+        "protect springs and community water points"
+      ],
+      "locations": [
+        "sloping farmland",
+        "riverbanks",
+        "water catchment areas",
+        "dryland farms",
+        "grazing areas",
+        "irrigated fields",
+        "hillside farms",
+        "community water points"
+      ],
+      "terminology": [
+        "soil conservation",
+        "water conservation",
+        "rainwater harvesting",
+        "land restoration",
+        "watershed protection",
+        "erosion control",
+        "sustainable land management",
+        "soil moisture conservation"
+      ]
+    },
+    "Climate-Smart Agriculture": {
+      "institutions": [
+        "Kenya Meteorological Department",
+        "County Agriculture Department",
+        "National Drought Management Authority",
+        "Climate-Smart Agriculture Programme",
+        "Agricultural Extension Service"
+      ],
+      "audiences": [
+        "smallholder farmers",
+        "pastoralists",
+        "rural households",
+        "crop farmers",
+        "livestock farmers",
+        "farmer groups",
+        "dryland farmers",
+        "irrigation farmers"
+      ],
+      "hazards": [
+        "unpredictable rainfall",
+        "drought",
+        "flooding",
+        "crop failure",
+        "livestock feed shortages",
+        "climate-related losses",
+        "heat stress",
+        "delayed planting",
+        "water shortages",
+        "extreme weather"
+      ],
+      "actions": [
+        "follow seasonal weather forecasts before planting",
+        "store fodder before the dry season",
+        "prepare drainage channels before heavy rains",
+        "plant drought-tolerant crop varieties",
+        "harvest rainwater during the rainy season",
+        "adjust planting dates using reliable weather information",
+        "protect livestock from extreme heat",
+        "diversify crops to reduce climate risk",
+        "conserve soil moisture using mulch",
+        "repair farm drainage systems",
+        "prepare emergency feed reserves for livestock",
+        "avoid planting in flood-prone areas",
+        "use water-efficient irrigation methods",
+        "seek extension advice on climate-smart farming"
+      ],
+      "locations": [
+        "dryland farms",
+        "flood-prone areas",
+        "pastoral areas",
+        "rain-fed farms",
+        "irrigated farms",
+        "rural communities",
+        "low-lying farms",
+        "drought-affected areas"
+      ],
+      "terminology": [
+        "climate-smart agriculture",
+        "drought preparedness",
+        "seasonal forecasting",
+        "climate resilience",
+        "water-use efficiency",
+        "flood preparedness",
+        "risk reduction",
+        "weather-informed farming"
+      ]
+    },
+    "Farm Safety": {
+      "institutions": [
+        "Directorate of Occupational Safety and Health Services",
+        "Pest Control Products Board",
+        "County Agriculture Department",
+        "Farm Machinery Safety Unit",
+        "Public Health Department"
+      ],
+      "audiences": [
+        "farm workers",
+        "employers",
+        "pesticide applicators",
+        "machinery operators",
+        "farm owners",
+        "young farmers",
+        "casual workers",
+        "warehouse workers"
+      ],
+      "hazards": [
+        "farm machinery injuries",
+        "pesticide poisoning",
+        "unsafe chemical storage",
+        "electrical hazards",
+        "child access to farm chemicals",
+        "falls and cuts",
+        "heat exhaustion",
+        "fuel fires",
+        "unprotected moving machinery",
+        "unsafe lifting"
+      ],
+      "actions": [
+        "wear appropriate protective equipment during farm work",
+        "switch off machinery before maintenance",
+        "store fuels and chemicals in labelled secure areas",
+        "keep children away from farm machinery and chemicals",
+        "inspect tools and machinery before use",
+        "avoid wearing loose clothing near moving machinery",
+        "use gloves when handling sharp farm tools",
+        "provide clean drinking water and rest breaks for workers",
+        "keep first-aid supplies available on the farm",
+        "report damaged electrical cables immediately",
+        "lift heavy loads using safe techniques",
+        "clean chemical spills using approved procedures",
+        "train workers before they operate machinery",
+        "keep emergency contact information visible"
+      ],
+      "locations": [
+        "farms",
+        "workshops",
+        "machinery sheds",
+        "chemical stores",
+        "warehouses",
+        "greenhouses",
+        "livestock units",
+        "processing areas"
+      ],
+      "terminology": [
+        "farm safety",
+        "worker protection",
+        "safe machinery use",
+        "chemical safety",
+        "occupational health",
+        "first-aid readiness",
+        "hazard prevention",
+        "responsible equipment use"
+      ]
+    },
+    "Agricultural Extension and Best Practices": {
+      "institutions": [
+        "Agricultural Extension Service",
+        "County Agriculture Department",
+        "Kenya Agricultural and Livestock Research Organization",
+        "Agriculture and Food Authority",
+        "Farmer Training Centre"
+      ],
+      "audiences": [
+        "farmers",
+        "new farmers",
+        "farmer groups",
+        "youth farmers",
+        "women farmers",
+        "commercial farmers",
+        "smallholder farmers",
+        "farmer cooperatives"
+      ],
+      "hazards": [
+        "poor farm planning",
+        "financial losses",
+        "low productivity",
+        "counterfeit farm inputs",
+        "lack of technical advice",
+        "poor record keeping",
+        "market losses",
+        "unsafe farming practices",
+        "unplanned borrowing",
+        "misuse of farm inputs"
+      ],
+      "actions": [
+        "seek advice from qualified agricultural extension officers",
+        "buy seeds and farm inputs from authorized dealers",
+        "keep records of farm expenses, production, and sales",
+        "attend farmer training and demonstration sessions",
+        "compare input prices before purchasing",
+        "use farm records to plan the next season",
+        "verify product labels before buying farm inputs",
+        "join recognized farmer groups for training and market information",
+        "prepare a farm budget before each production season",
+        "follow recommendations from qualified agricultural professionals",
+        "check market information before selling produce",
+        "keep receipts for seeds, fertilizer, and pesticides",
+        "review farm performance after every season",
+        "ask for professional advice before adopting unfamiliar technologies"
+      ],
+      "locations": [
+        "farms",
+        "farmer field schools",
+        "markets",
+        "training centres",
+        "agro-input shops",
+        "cooperative offices",
+        "produce collection centres",
+        "community demonstration plots"
+      ],
+      "terminology": [
+        "farm record keeping",
+        "farm planning",
+        "responsible agribusiness",
+        "extension support",
+        "input verification",
+        "market information",
+        "financial management",
+        "farmer training"
+      ]
+    }
+  },
+  "rules": {
+    "capitalize_sentences": true,
+    "remove_duplicate_punctuation": true,
+    "require_action": true,
+    "minimum_words": 6,
+    "maximum_words": 45
+  }
+}

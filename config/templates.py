@@ -1,0 +1,22 @@
+PSA_TEMPLATES = [
+    "{action_cap} to reduce the risk of {hazard}.",
+    "{action_cap} to protect yourself and your community from {hazard}.",
+    "{action_cap}, especially in {location}.",
+    "{action_cap} as advised by {institution}.",
+    "{action_cap} to support {terminology}.",
+    "{action_cap} before the risk of {hazard} becomes serious.",
+    "{action_cap}. {institution} reminds {audience} to act early.",
+    "{action_cap} in {location} to help prevent {hazard}.",
+    "{action_cap}. This message is intended for {audience}.",
+    "{action_cap} and follow verified guidance from {institution}.",
+    "{action_cap} to improve {terminology} in {location}.",
+    "{action_cap}. Early action can help reduce {hazard}.",
+    "{action_cap} whenever you are in {location}.",
+    "{action_cap} and encourage others to do the same.",
+    "{action_cap} to keep families and communities safe.",
+    "{action_cap}. Do not ignore the risk of {hazard}.",
+    "{action_cap} as part of good {terminology}.",
+    "{action_cap}. Seek official guidance from {institution} when necessary.",
+    "{action_cap} to prevent avoidable harm in {location}.",
+    "{action_cap}. Protect yourself and those around you."
+]
