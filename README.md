@@ -1,93 +1,114 @@
-# Machine Translation of Public Service Announcements (PSAs)
+# English–Ekegusii Neural Machine Translation for Public Service Announcements
 
-A proof-of-concept multilingual machine translation system for Kenyan Public Service Announcements, translating between English and Kiswahili using few-shot cross-lingual transfer learning on pre-trained multilingual models. Developed as the semester project for **DSA 4020A: Natural Language Processing**.
+A neural machine translation (NMT) system that translates Public Service Announcements (PSAs) from English into Ekegusii, a low-resource Bantu language spoken in Kenya, using multilingual transfer learning. Developed as the semester project for **DSA 4020A: Natural Language Processing**, University of Nairobi.
 
-> PSAs are short, action-oriented public information messages (e.g. *"Ministry of Health advises parents to take children for vaccination."*) used to inform, warn, or guide the public on health, safety, education, security, and governance matters.
+> PSAs are short, action-oriented public information messages (e.g. *"Residents urged to maintain clean environments."*) used to inform, warn, or guide the public on health, safety, education, security, and governance matters. Most PSAs in Kenya are published only in English and Kiswahili, leaving speakers of indigenous languages like Ekegusii without access.
 
 ## Team
 
 - Abdiqalaq Issack
-- Chiadika Elue
 - Amy Njenga
-
+- Chiadika Elue
+- Joyann Maina
 
 **Course:** DSA 4020A Natural Language Processing — School of Science & Technology
 **Supervisor:** Dr. Edward Ombui
 
-## Project Status
+## Problem Statement
 
-| Week | Focus | Status |
-|---|---|---|
-| 1 | Data collection & curation | ✅ Complete |
-| 2 | Data processing & EDA | ✅ Complete |
-| 3 | Modeling with transfer learning | ✅ Complete |
-| 4 | Evaluation & deployment | 🔄 In progress |
+Ekegusii lacks sufficiently large parallel corpora to train high-quality neural translation systems directly, and existing multilingual translation models perform poorly on English–Ekegusii translation without adaptation. This project addresses that gap using transfer learning from a related, higher-resource Bantu language (Kiswahili) combined with a custom-adapted multilingual model.
 
-## Dataset
+## Objectives
 
-A synthetic English–Kiswahili parallel PSA corpus was generated using a knowledge-based, template-driven approach grounded in authentic PSAs from Kenyan government and public sources, then translated to Kiswahili using the NLLB-200 model.
+1. Collect a large multilingual PSA corpus (English–Kiswahili).
+2. Develop a high-quality, manually validated Gold English–Ekegusii dataset.
+3. Investigate transfer learning from English–Kiswahili to English–Ekegusii.
+4. Compare mT5 and NLLB-200 architectures for low-resource translation.
+5. Evaluate translation quality using automatic and human evaluation.
+6. Produce a deployable translation prototype.
 
-| Item | Value |
-|---|---|
-| Total parallel sentence pairs | 50,000 |
-| Domains | 5 (Health, Education, Agriculture, Security, Governance) |
-| Sentences per domain | 10,000 |
-| Missing / duplicate records | 0 |
-| Train / Validation / Test split | 40,000 / 5,000 / 5,000 |
+## Approach
 
-Dataset columns: `master_id`, `psa_id`, `domain`, `subcategory`, `psa_text`, `kiswahili_text`.
+**Stage 1 — English–Kiswahili Corpus:** ~50,000 PSA sentence pairs collected from public sources (Ministry of Health, WHO, Kenya Red Cross, government websites, NGOs, and agriculture/education institutions) across five domains: health, education, agriculture, governance, and security.
 
-## Models & Results
+**Stage 2 — Gold English–Ekegusii Dataset:** A manually curated and validated dataset of 3,875 English–Ekegusii sentence pairs, split into training (3,100), validation (387), and test (388) sets.
 
-Two pre-trained sequence-to-sequence models were fine-tuned for English → Kiswahili translation:
+**Transfer Learning:** An mT5 model was first fine-tuned on the large English–Kiswahili corpus. Because Kiswahili and Ekegusii are both Bantu languages, this learned representation was transferred to initialize English–Ekegusii fine-tuning on the much smaller Gold dataset.
 
-| Model | Training data | Test Loss | BLEU |
+**NLLB-200 Adaptation:** NLLB-200 Distilled does not natively support Ekegusii. It was adapted by adding a custom language token (`guz_Latn`), extending the tokenizer vocabulary, resizing model embeddings, and fine-tuning on the Gold dataset.
+
+## Results
+
+Automatic evaluation on the held-out test set:
+
+| Model | BLEU ↑ | chrF ↑ | COMET ↑ |
 |---|---:|---:|---:|
-| mT5-small (zero-shot baseline) | 0 | 25.2147 | 0.0210 |
-| mT5-small (fine-tuned) | 40,000 examples | 0.4642 | 58.7627 |
-| **NLLB-200 Distilled (fine-tuned)** | 10,000 examples | **0.1273** | **80.6249** |
+| mT5 Baseline (English→Ekegusii, direct) | 0.14 | 2.46 | — |
+| **NLLB-200 + `guz_Latn` (adapted)** | **4.12** | **33.16** | **0.601** |
 
-NLLB-200 Distilled (600M) achieved the best performance, outperforming fine-tuned mT5-small despite using a quarter of the training data — indicating its multilingual pretraining transfers more effectively to this low-resource language pair. Validation BLEU (81.42) and test BLEU (80.62) are close, indicating stable generalization with minimal overfitting.
+The adapted NLLB-200 model outperformed the direct mT5 baseline across every metric. Absolute scores are modest, reflecting the difficulty of translation with under 4,000 training sentences, but the consistent improvement demonstrates that multilingual transfer learning meaningfully helps low-resource translation. Both BLEU/chrF (lexical overlap) and COMET (semantic quality) were used since correct translations can vary in wording, especially in low-resource settings.
 
-**Example translation (NLLB-200, unseen input):**
-> EN: *"Wash your hands regularly to prevent disease."*
-> SW: *"Osha mikono yako kwa ukawaida ili kuzuia magonjwa."*
+Human evaluation was conducted by native Ekegusii speakers using a five-point Likert scale across three criteria: fluency, adequacy, and cultural accuracy.
 
-### Training configuration
+**Example translation (NLLB-200):**
+> EN: *"Residents urged to maintain clean environments."*
+> Gold reference: *"Abanyaabamenerigwe bokobwata endagano y'okorabe oborogo."*
+> NLLB prediction: *"Abanya bamenyerigwe bokobwata endagano y'okorabe oborogo."*
 
-| Parameter | mT5-small | NLLB-200 Distilled (600M) |
-|---|---|---|
-| Epochs | 3 | 1 |
-| Learning rate | 5e-5 | 2e-5 |
-| Effective batch size | 16 | 16 |
-| Max sequence length | 128 | 128 |
-| Hardware | Tesla T4 GPU | Tesla T4 GPU |
-| Experiment tracking | Weights & Biases | Weights & Biases |
+## Repository Structure
 
-
+```
+.
+├── data/
+│   ├── english_kiswahili_corpus.csv       # ~50,000 English–Kiswahili PSA pairs
+│   └── gold_english_ekegusii/             # 3,875 curated English–Ekegusii pairs
+│       ├── train.csv                      # 3,100 pairs
+│       ├── validation.csv                 # 387 pairs
+│       └── test.csv                       # 388 pairs
+├── notebooks/
+│   ├── mt5_english_kiswahili_finetuning.ipynb   # Stage 1: mT5 fine-tuning
+│   ├── mt5_transfer_ekegusii.ipynb              # Transfer learning + mT5 baseline
+│   └── nllb200_guz_latn_adaptation.ipynb        # NLLB-200 adaptation & fine-tuning
+├── reports/
+│   ├── WEEK_1_REPORT.docx
+│   ├── WEEK_2_REPORT.docx
+│   ├── WEEK_3_REPORT.docx
+│   ├── WEEK_4_REPORT.docx
+│   └── Report_nlp.docx                    # Full project report
+├── poster/
+│   └── english_ekegusii_nmt_poster.pdf
+└── README.md
+```
 
 ## Tools & Stack
 
-Python · Hugging Face `transformers` / `datasets` / `evaluate` · SacreBLEU · PyTorch · Weights & Biases · pandas · Google Colab (Tesla T4 GPU)
+Python · PyTorch · Hugging Face Transformers & Datasets · SentencePiece · Evaluate · COMET · Weights & Biases · NVIDIA A100-SXM4-80GB GPU (Kinesis GPU platform)
 
 ## Setup & Usage
 
 ```bash
-git clone <repo-url>
-cd <repo-name>
-pip install transformers datasets evaluate sacrebleu sentencepiece accelerate wandb pandas
+git clone https://github.com/your-repo/english-ekegusii-nmt
+cd english-ekegusii-nmt
+pip install transformers datasets evaluate sacrebleu unbabel-comet sentencepiece accelerate wandb pandas
 ```
 
-Open a notebook in `notebooks/` (Google Colab recommended for GPU access), mount the dataset from `data/`, and run cells sequentially. A Weights & Biases API key is required for experiment logging.
+Run notebooks in `notebooks/` in order (a GPU is strongly recommended — an A100 or equivalent). A Weights & Biases API key is required for experiment logging.
 
-## Roadmap (Week 4)
+## Limitations
 
-- [ ] Additional automatic metrics (chrF, COMET)
-- [ ] Human evaluation with native Kiswahili speakers (fluency, adequacy, cultural accuracy)
-- [ ] Error analysis and limitations write-up
-- [ ] Deployment as a Streamlit/Gradio web demo
-- [ ] Extension to additional under-resourced languages (Ekegusii, Dholuo, Somali)
+- Automatic metrics are based on a small (388-sentence) test set typical of low-resource evaluation.
+- The Gold dataset (3,875 pairs) is small relative to typical NMT training corpora; scores are expected to improve substantially with more data.
+- Evaluation covers English→Ekegusii only; the reverse direction was not tested.
+- Full-scale human evaluation (beyond the initial native-speaker review) has not yet been conducted.
 
-## License
+## Future Work
 
-This project is released under the [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
+- Expand the Gold English–Ekegusii corpus
+- Incorporate carefully reviewed synthetic data
+- Conduct larger-scale human evaluation
+- Improve domain-specific terminology handling
+- Deploy as a Streamlit/Gradio web application
+- Extend the approach to other Kenyan indigenous languages
+
+
+
