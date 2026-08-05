@@ -55,30 +55,7 @@ Human evaluation was conducted by native Ekegusii speakers using a five-point Li
 > Gold reference: *"Abanyaabamenerigwe bokobwata endagano y'okorabe oborogo."*
 > NLLB prediction: *"Abanya bamenyerigwe bokobwata endagano y'okorabe oborogo."*
 
-## Repository Structure
 
-```
-.
-├── data/
-│   ├── english_kiswahili_corpus.csv       # ~50,000 English–Kiswahili PSA pairs
-│   └── gold_english_ekegusii/             # 3,875 curated English–Ekegusii pairs
-│       ├── train.csv                      # 3,100 pairs
-│       ├── validation.csv                 # 387 pairs
-│       └── test.csv                       # 388 pairs
-├── notebooks/
-│   ├── mt5_english_kiswahili_finetuning.ipynb   # Stage 1: mT5 fine-tuning
-│   ├── mt5_transfer_ekegusii.ipynb              # Transfer learning + mT5 baseline
-│   └── nllb200_guz_latn_adaptation.ipynb        # NLLB-200 adaptation & fine-tuning
-├── reports/
-│   ├── WEEK_1_REPORT.docx
-│   ├── WEEK_2_REPORT.docx
-│   ├── WEEK_3_REPORT.docx
-│   ├── WEEK_4_REPORT.docx
-│   └── Report_nlp.docx                    # Full project report
-├── poster/
-│   └── english_ekegusii_nmt_poster.pdf
-└── README.md
-```
 
 ## Tools & Stack
 
